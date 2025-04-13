@@ -1,0 +1,9 @@
+name = "gps-tracker"
+type = "javascript"
+account_id = "fca61c57dd2c15b441f2d9544e1bf86a"
+workers_dev = true
+compatibility_date = "2025-04-13"
+
+[env.production]
+route = "bist.biz.id/lacak"
+zone_id = "784be45d712ea2cab1eecc4befe0d843"
