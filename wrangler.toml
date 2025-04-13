@@ -1,8 +1,10 @@
 name = "funny-video"
-type = "javascript"
 account_id = "fca61c57dd2c15b441f2d9544e1bf86a"
 workers_dev = true
 compatibility_date = "2025-04-14"
+
+# Entry point untuk worker
+main = "index.js"  # Ganti dengan lokasi yang sesuai jika berbeda
 
 [env.production]
 route = "bist.biz.id/reel"
